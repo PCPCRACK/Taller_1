@@ -1,17 +1,11 @@
 # Taller_1
-#Punto 1:
- quiz Python Beginner
+#Punto 1: Quiz Python Beginner
+
 [![Captura.png](https://i.postimg.cc/2jgSMnN1/Captura.png)](https://postimg.cc/14cSNntS)
 
 
-#Punto 2:
-un programa que lea tres números reales y determine cuál es el mayor
-
-
+#Punto 2: Un programa que lea tres números reales y determine cuál es el mayor
 ```python
-
-
-
 print("Dime 3 numeros")
 A= float(input())
 B= float(input())
@@ -31,11 +25,7 @@ print("es el mayor")
 #Punto 3
 
 
-#Punto 4:
-programa que lea dos números reales y determine si el primero es múltiplo del segundo.
-
-
-
+#Punto 4: Programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ```python
 print("Dime 2 numeros")
 A= float(input())
