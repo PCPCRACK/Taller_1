@@ -41,7 +41,14 @@ else:
 
 
 
-#Punto 6
+#Punto 6: programa que solicite al usuario una letra y determine si es una vocal o una consonante
+```python
+letra = input("Ingrese una letra: ")
+if letra.lower() in ['a', 'e', 'i', 'o', 'u']:
+    print("La letra ingresada es una vocal")
+else:
+    print("La letra ingresada es una consonante")
+```
 
 
 
