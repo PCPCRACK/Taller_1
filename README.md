@@ -1,6 +1,7 @@
 # Taller_1
 #Punto 1
 
+[![Captura.png](https://i.postimg.cc/2jgSMnN1/Captura.png)](https://postimg.cc/14cSNntS)
 
 
 #Punto 2
