@@ -226,10 +226,14 @@ else:
 
 
 #Punto 10: programa que dada una distancia calcule:
-+El tiempo que le tomaría a la luz recorrer la distancia.
-+El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
-+El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
-+El tiempo que le tomaría a Bolt recorrer la distancia.
+
+El tiempo que le tomaría a la luz recorrer la distancia.
+
+El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
+
+El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
+
+El tiempo que le tomaría a Bolt recorrer la distancia.
 
 
 ```python
