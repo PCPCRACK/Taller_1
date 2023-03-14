@@ -21,6 +21,9 @@ elif C>A and C>B:
 print("es el mayor")
 ```
 
+Diagrama de flujo
+
+ [![a.png](https://i.postimg.cc/ZKvPRSXH/a.png)](https://postimg.cc/fJZS26zS)
 
 #Punto 3
 
