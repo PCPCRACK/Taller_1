@@ -73,7 +73,7 @@ else:
 
 
 
-#Punto 7 
+#Punto 7: Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
 
 ```python
 numero1 = float(input("ingrese un número"))
@@ -145,7 +145,7 @@ else:
 
 
 
-#Punto 9
+#Punto 9: Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
 
 ```python
 x= input("Ingrese el nombre de un país de America en minúsculas y con tildes para ver su capital")
