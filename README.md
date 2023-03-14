@@ -6,13 +6,13 @@
 
 #Punto 2: Un programa que lea tres números reales y determine cuál es el mayor
 ```python
-print("Dime 3 numeros")
+print("Dime 3 numeros") #El programa pide 3 valores
 A= float(input())
 B= float(input())
 C= float(input())
-if A==B or B==C or A==C:
+if A==B or B==C or A==C: #si algunos de los valores son iguales no se ejecutara
     print("dar valores diferentes")
-elif A>B and A>C:
+elif A>B and A>C: #compara los cada uno de los valores con los demas para determinar cual es el mayor
     print(A)
 elif B>A and B>C:
     print(B)
@@ -30,11 +30,11 @@ Diagrama de flujo
 
 #Punto 4: Programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ```python
-print("Dime 2 numeros")
+print("Dime 2 numeros") #El programa pide 2 valores
 A= float(input())
 B= float(input())
-if A%B==0:
-    print(A ," es multiplo de ", B)
+if A%B==0: #compra si la division por residuo sea cero
+    print(A ," es multiplo de ", B) 
 else:
     print (A ," NO es multiplo de ", B)
 ```
