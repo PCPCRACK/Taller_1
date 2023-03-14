@@ -6,8 +6,8 @@
 
 #Punto 2: Un programa que lea tres números reales y determine cuál es el mayor
 ```python
-print("Dime 3 numeros") #El programa pide 3 valores
-A= float(input())
+print("Dime 3 numeros") 
+A= float(input()) #El programa pide 3 numeros reales
 B= float(input())
 C= float(input())
 if A==B or B==C or A==C: #si algunos de los valores son iguales no se ejecutara
@@ -30,10 +30,10 @@ Diagrama de flujo
 
 #Punto 4: Programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ```python
-print("Dime 2 numeros") #El programa pide 2 valores
-A= float(input())
+print("Dime 2 numeros") 
+A= float(input()) #El programa pide 2 numeros reales
 B= float(input())
-if A%B==0: #compra si la division por residuo sea cero
+if A%B==0: #compara si la division por residuo sea cero
     print(A ," es multiplo de ", B) 
 else:
     print (A ," NO es multiplo de ", B)
@@ -45,9 +45,9 @@ else:
 
 
 #Punto 6: programa que solicite al usuario una letra y determine si es una vocal o una consonante
-```python
-letra = input("Ingrese una letra: ")
-if letra.lower() in ['a', 'e', 'i', 'o', 'u']:
+```python 
+letra = input("Ingrese una letra: ") #solicita un caracter
+if letra.lower() in ['a', 'e', 'i', 'o', 'u']: #convierte el caracter en minuscula
     print("La letra ingresada es una vocal")
 else:
     print("La letra ingresada es una consonante")
@@ -63,11 +63,12 @@ else:
 
 
 ```python
-frecuencia = float(input("Ingrese la frecuencia en Hz: "))
-VL= 299792458
-Longitud_onda = VL/frecuencia
-
-if Longitud_onda < 10e-12:
+frecuencia = float(input("Ingrese la frecuencia en Hz: ")) #el programa pide una frecuencia
+VL= 299792458 #velocidad de la luz
+Longitud_onda = VL/frecuencia #divide velocidad de la luz en la frecuencia
+#El programa compara el resultado desde el numero menor hasta el mayor
+#los valores se pueden representar como 10e-12 == 10x10^12
+if Longitud_onda < 10e-12: 
     print("La frecuencia ingresada se encuentra en la banda de rayos gamma.")
 elif Longitud_onda < 10e-9:
     print("La frecuencia ingresada se encuentra en la banda de rayos x.")
@@ -116,13 +117,13 @@ else:
 
 
 ```python
-print("inresa una distancia en METROS")
-Dist=float(input())
-VL= 299792458
-VS=343
-VC=341.106944
-VB=12.42
-Velocidad_luz = Dist/VL
+print("inresa una distancia en METROS") 
+Dist=float(input()) #pide una distancia
+VL= 299792458 #velocidad de la luz
+VS=343 #velocidad del sonido
+VC=341.106944 #velocidad del vehiculo comercial mas rapido
+VB=12.42 #velocidad de Bolt
+Velocidad_luz = Dist/VL #divide el el valor ingresado por cada uno de los valores establecidos
 Velocidad_sonido= Dist/VS
 Velocidad_comercial= Dist/VC
 Velocidad_bolt= Dist/VB
