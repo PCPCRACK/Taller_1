@@ -25,9 +25,16 @@ Diagrama de flujo
 
  [![a.png](https://i.postimg.cc/ZKvPRSXH/a.png)](https://postimg.cc/fJZS26zS)
 
-#Punto 3
+#Punto 3: Realice un programa que lea un número enteros y determine si es par o impar.
 
+```python
 
+numero= int(input("ingrese un número"))
+if numero%2 == 0:
+     print(str(numero) + " es número par")
+else:
+     print(str(numero) + " es número impar")
+```
 #Punto 4: Programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ```python
 print("Dime 2 numeros") 
@@ -40,9 +47,20 @@ else:
 ```
 
 
-#Punto 5
+#Punto 5: Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 
-
+```python
+numero1 = float(input("ingrese un número"))
+numero2 = float(input("ingrese un número"))
+numero3 = float(input("ingrese un número"))
+suma = numero1 + numero2
+if suma > numero3:
+    print(str(numero3) + " es menor que " + str(suma))
+elif suma == numero3:
+    print(str(numero3) + " es igual que " + str(suma))
+else:
+    print(str(numero3) + " es mayor que " + str(suma))
+```
 
 #Punto 6: programa que solicite al usuario una letra y determine si es una vocal o una consonante
 ```python 
@@ -57,7 +75,29 @@ else:
 
 #Punto 7 
 
-
+```python
+numero1 = float(input("ingrese un número"))
+numero2 = float(input("ingrese un número"))
+numero3 = float(input("ingrese un número"))
+numero4 = float(input("ingrese un número"))
+numero5 = float(input("ingrese un número"))
+promedio = (numero1 + numero2 + numero3 + numero4 + numero5)/5
+print("el promedio de los valores ingresados es " + str(promedio))
+numerosOrdenadosAscendente = sorted([numero1, numero2, numero3, numero4, numero5])
+import statistics
+print("La mediana es " + str(statistics.median(numerosOrdenadosAscendente)))
+print("Números ordenados ascendentemente " + str(numerosOrdenadosAscendente))
+n= sorted([numero1, numero2, numero3, numero4,numero5], reverse=True)
+print("Números ordenados descendentemente " + str(n))
+multiplicativo1 = numero1 * numero2 * numero3 * numero4 * numero5
+raiz = (multiplicativo1)**(1/2)
+numeroMayor = max (numerosOrdenadosAscendente)
+numeroMenor = min (numerosOrdenadosAscendente)
+p = numeroMayor**(numeroMenor)
+print("La potencia del mayor número elevado al menor número " + str(p))
+RaizCubica = numeroMenor**(1/3)
+print("La raíz cúbica del menor número es " + str(RaizCubica))
+```
 
 #Punto 8: programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 
@@ -107,6 +147,82 @@ else:
 
 #Punto 9
 
+```python
+x= input("Ingrese el nombre de un país de America en minúsculas y con tildes para ver su capital")
+if x == "canadá":
+    print("otawwa") 
+if x == "estados unidos":
+    print("washington dc.") 
+if x == "méxico":
+    print("distrito federal de méxico") 
+if x == "belice":
+    print("belmopán") 
+if x == "costa rica":
+    print("san josé") 
+if x == "el salvador":
+    print("san salvador") 
+if x == "guatemala":
+    print("ciudad de guatemala") 
+if x == "honduras":
+    print("tegucigalpa") 
+if x == "nicaragua":
+    print("managua") 
+if x == "panamá":
+    print("panamá") 
+if x == "argentina":
+    print("buenos aires") 
+if x == "bolivia":
+    print("sucre") 
+if x == "brasil":
+    print("brasilia") 
+if x == "chile":
+    print("santiago de chile") 
+if x == "colombia":
+    print("bogotá") 
+if x == "ecuador":
+    print("quito") 
+if x == "paraguay":
+    print("asunción") 
+if x == "perú":
+    print("lima") 
+if x == "surinam":
+    print("parabarimo") 
+if x == "trinidad y tobago":
+    print("puerto españa") 
+if x == "uruguay":
+    print("montevideo") 
+if x == "venezuela":
+    print("caracas") 
+if x == "antigua y barbuda":
+    print("saint john") 
+if x == "bahamas":
+    print("nasáu") 
+if x == "barbados":
+    print("bridgetown") 
+if x == "cuba":
+    print("la habana") 
+if x == "dominica":
+    print("roseau") 
+if x == "granada":
+    print("saint george") 
+if x == "guyana":
+    print("georgetown") 
+if x == "haití":
+    print("puerto principe") 
+if x == "jamaica":
+    print("kingston") 
+if x == "republica dominicana":
+    print("santo domingo") 
+if x == "san cristóbal y nieves":
+    print("basseterre") 
+if x == "san vicente y las granadinas":
+    print("kingstown") 
+if x == "santa lucía":
+    print("castries") 
+else:
+    print("país no identificado")
+
+```
 
 
 #Punto 10: programa que dada una distancia calcule:
