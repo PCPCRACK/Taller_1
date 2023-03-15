@@ -3,6 +3,8 @@
 
 [![Captura.png](https://i.postimg.cc/2jgSMnN1/Captura.png)](https://postimg.cc/14cSNntS)
 
+[![Captura-de-pantalla-199.png](https://i.postimg.cc/PqWnfKtC/Captura-de-pantalla-199.png)](https://postimg.cc/cKLbXRtW)
+
 
 #Punto 2: Un programa que lea tres números reales y determine cuál es el mayor
 ```python
