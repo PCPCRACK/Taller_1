@@ -23,7 +23,7 @@ print("es el mayor")
 
 Diagrama de flujo
 
- [![a.png](https://i.postimg.cc/ZKvPRSXH/a.png)](https://postimg.cc/fJZS26zS)
+ [![Captura-de-pantalla-200.png](https://i.postimg.cc/Sx3yqBZb/Captura-de-pantalla-200.png)](https://postimg.cc/dhRMjxP5)
 
 #Punto 3: Realice un programa que lea un número enteros y determine si es par o impar.
 
