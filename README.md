@@ -35,6 +35,11 @@ if numero%2 == 0: #una variable que sera utilizada en el if para determinar si e
 else:
      print(str(numero) + " es número impar")
 ```
+
+Diagrama de flujo
+
+[Captura-de-pantalla-200.png](https://postimg.cc/dhRMjxP5)
+
 #Punto 4: Programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ```python
 print("Dime 2 numeros") 
@@ -45,9 +50,8 @@ if A%B==0: #compara si la division por residuo sea cero
 else:
     print (A ," NO es multiplo de ", B)
 ```
-Diagrama de flujo
 
- [![Captura-de-pantalla-200.png](https://i.postimg.cc/Sx3yqBZb/Captura-de-pantalla-200.png)](https://postimg.cc/dhRMjxP5)
+
 
 #Punto 5: Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 
