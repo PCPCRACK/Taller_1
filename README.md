@@ -29,8 +29,8 @@ Diagrama de flujo
 
 ```python
 
-numero= int(input("ingrese un número"))
-if numero%2 == 0:
+numero= int(input("ingrese un número")) #Primero creamos un input para que el usuario registre un numero
+if numero%2 == 0: #una variable que sera utilizada en el if para determinar si el numero es par
      print(str(numero) + " es número par")
 else:
      print(str(numero) + " es número impar")
@@ -50,12 +50,14 @@ else:
 #Punto 5: Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 
 ```python
+#Primero se crea 3 espacios para variables tipo float como se muestra en la primera parte del código 
+que el mensaje se muestre correctamente
 numero1 = float(input("ingrese un número"))
 numero2 = float(input("ingrese un número"))
 numero3 = float(input("ingrese un número"))
-suma = numero1 + numero2
+suma = numero1 + numero2 #creamos la variable suma que se usara para determinar si el número 3 es mayor a esta usando la operación if
 if suma > numero3:
-    print(str(numero3) + " es menor que " + str(suma))
+    print(str(numero3) + " es menor que " + str(suma)) #creando un enunciado usando print y agregando str() para
 elif suma == numero3:
     print(str(numero3) + " es igual que " + str(suma))
 else:
@@ -76,16 +78,19 @@ else:
 #Punto 7: Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
 
 ```python
+#Primero se crean las variables que el usuario ingresa
 numero1 = float(input("ingrese un número"))
 numero2 = float(input("ingrese un número"))
 numero3 = float(input("ingrese un número"))
 numero4 = float(input("ingrese un número"))
 numero5 = float(input("ingrese un número"))
-promedio = (numero1 + numero2 + numero3 + numero4 + numero5)/5
+# se crean las operaciones de cada calculo
+promedio = (numero1 + numero2 + numero3 + numero4 + numero5)/5 #para el promedio se hace de manera directa mientras que la mediana usa un modelo importado con import, se usa el sorted()
 print("el promedio de los valores ingresados es " + str(promedio))
 numerosOrdenadosAscendente = sorted([numero1, numero2, numero3, numero4, numero5])
 import statistics
-print("La mediana es " + str(statistics.median(numerosOrdenadosAscendente)))
+print("La mediana es " + str(statistics.median(numerosOrdenadosAscendente)))#para ordenar los numeros de manera ascendente y descendente, y luego se usa max y min para los valores mayor y menor que se usaran para la potencia
+y luego para la raíz cúbica. 
 print("Números ordenados ascendentemente " + str(numerosOrdenadosAscendente))
 n= sorted([numero1, numero2, numero3, numero4,numero5], reverse=True)
 print("Números ordenados descendentemente " + str(n))
@@ -148,6 +153,8 @@ else:
 #Punto 9: Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
 
 ```python
+#se creo una lista de países con su capital y se uso if para según la variable ingresada, en este caso un país de america. se devolviera la 
+respectiva capital.
 x= input("Ingrese el nombre de un país de America en minúsculas y con tildes para ver su capital")
 if x == "canadá":
     print("otawwa") 
