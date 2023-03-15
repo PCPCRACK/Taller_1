@@ -1,10 +1,14 @@
 # Taller_1
 #Punto 1: Quiz Python Beginner
+1
 
 [![Captura.png](https://i.postimg.cc/2jgSMnN1/Captura.png)](https://postimg.cc/14cSNntS)
+2
 
 [![Captura-de-pantalla-199.png](https://i.postimg.cc/PqWnfKtC/Captura-de-pantalla-199.png)](https://postimg.cc/cKLbXRtW)
+3
 
+[![a.png](https://i.postimg.cc/Gp5p5BDr/a.png)](https://postimg.cc/5H81H2pk)
 
 #Punto 2: Un programa que lea tres números reales y determine cuál es el mayor
 ```python
