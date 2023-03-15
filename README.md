@@ -38,7 +38,7 @@ else:
 
 Diagrama de flujo
 
-[Captura-de-pantalla-200.png](https://postimg.cc/dhRMjxP5)
+ [Captura-de-pantalla-200.png](https://postimg.cc/dhRMjxP5)
 
 #Punto 4: Programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ```python
