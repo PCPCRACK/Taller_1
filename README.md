@@ -45,7 +45,9 @@ if A%B==0: #compara si la division por residuo sea cero
 else:
     print (A ," NO es multiplo de ", B)
 ```
+Diagrama de flujo
 
+ [![Captura-de-pantalla-200.png](https://i.postimg.cc/Sx3yqBZb/Captura-de-pantalla-200.png)](https://postimg.cc/dhRMjxP5)
 
 #Punto 5: Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 
