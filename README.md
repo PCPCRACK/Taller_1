@@ -23,8 +23,7 @@ print("es el mayor")
 
 Diagrama de flujo
 
- [![Captura-de-pantalla-200.png](https://i.postimg.cc/Sx3yqBZb/Captura-de-pantalla-200.png)](https://postimg.cc/dhRMjxP5)
-
+ 
 #Punto 3: Realice un programa que lea un número enteros y determine si es par o impar.
 
 ```python
@@ -38,7 +37,7 @@ else:
 
 Diagrama de flujo
 
- [Captura-de-pantalla-200.png](https://postimg.cc/dhRMjxP5)
+ [![Captura-de-pantalla-200.png](https://i.postimg.cc/Sx3yqBZb/Captura-de-pantalla-200.png)](https://postimg.cc/dhRMjxP5)
 
 #Punto 4: Programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ```python
